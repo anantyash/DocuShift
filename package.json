@@ -9,7 +9,7 @@
     "build:exe": "npx @yao-pkg/pkg -t node18-win-x64 --out-path dist server.js"
   },
   "keywords": ["word", "docx", "pdf", "converter", "com", "office", "batch-converter"],
-  "author": "Antigravity",
+  "author": "Yash",
   "license": "MIT",
   "dependencies": {
     "archiver": "^7.0.1",
