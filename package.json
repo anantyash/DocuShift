@@ -1,5 +1,5 @@
 {
-  "name": "word-to-pdf-converter",
+  "name": "docushift",
   "version": "1.0.0",
   "description": "Production-ready high-fidelity Word to PDF Converter preserving Word styles, fonts, and layouts",
   "main": "server.js",
