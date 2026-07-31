@@ -78,3 +78,24 @@ The **Word to PDF Converter** application is now fully built, production-ready, 
    - Use the **"Preview"** button to inspect your converted PDF in the live modal, or download individual files, ZIP archives, or merged PDFs.
 
 
+## Full Rebuild Workflow
+If you make changes to the app and want to rebuild everything fresh:
+
+   1. Install/update dependencies
+   ```bash
+   npm install 
+   ```
+
+   2. Rebuild portable bundle
+   ```bash 
+   powershell -ExecutionPolicy Bypass -File "scripts/make_portable.ps1"
+   ```
+
+   3. Re-ZIP it
+   Make sure to update project folder path
+
+   ```bash
+   powershell -Command "Compress-Archive -Path 'e:/projects/DocuShift_Portable/*' -DestinationPath 'e:/projects/DocuShift_Portable.zip' -Force"
+   ```
+
+
