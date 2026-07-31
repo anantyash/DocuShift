@@ -12,7 +12,7 @@ module.exports = {
   OUTPUTS_DIR,
   SCRIPTS_DIR,
   MAX_FILE_SIZE_MB: 50,
-  MAX_FILES_PER_BATCH: 100,
+  MAX_FILES_PER_BATCH: 20,
   ALLOWED_EXTENSIONS: [".docx", ".doc"],
   ALLOWED_MIME_TYPES: [
     "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
